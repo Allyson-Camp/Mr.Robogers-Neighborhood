@@ -1,3 +1,6 @@
 function numberCounter(number) {
-  return number;
+  let array = [];
+  array.push(number);
+  return array;
 }
+
