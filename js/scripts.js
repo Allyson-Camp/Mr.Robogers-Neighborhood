@@ -1,4 +1,4 @@
-function numberCounter(number) {
+function numberToWord(number) {
   let array = [];
   let userEntry = number.toString();
   if (userEntry.includes(3)) {

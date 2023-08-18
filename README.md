@@ -41,22 +41,22 @@ To achieve this, array methods, looping, and branching logic were all applied in
 gh-pages: https://allyson-camp.github.io/Mr.Robogers-Neighborhood/
 
 ## Tests
-Describe: numberCounter()
+Describe: numberToWord()
 
   Test #1: "It should return an array of numbers from 0 to the users inputted number"
-  Code: ```numberCounter(0);```
+  Code: ```numberToWord(0);```
   Expected Output: [0]
 
   Test #2: "It should return the word "Beep" for entries that contain "1""
-  Code: ```numberCounter(1);```
+  Code: ```numberToWord1);```
   Expected Output: ["Beep"]
 
   Test #3: "It should return the word "Boop" for entries that contain "2""
-  Code: ```numberCounter(21);```
+  Code: ```numberToWord(21);```
   Expected Output: ["Boop"]
 
   Test #4: "It should return the phrase "Won't you be my neighbor?" for entries that contain "3""
-  Code: ```numberCounter(123);```
+  Code: ```numberToWord123);```
   Expected Output: ["Won't you be by neighbor?"]
   
 ## Known Bugs
