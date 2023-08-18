@@ -47,6 +47,10 @@ Describe: numberCounter()
   Code: ```numberCounter(0);```
   Expected Output: [0]
 
+  Test #2: "It should return the word "Beep" for numbers that contain "1""
+  Code: ```numberCounter(1);```
+  Expected Output: [Beep]
+
   
 ## Known Bugs
 
