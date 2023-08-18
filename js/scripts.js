@@ -1,11 +1,12 @@
 function numberCounter(number) {
   let array = [];
-   if (number.toString().includes(1)) {
-        array.push("Beep!");
-   } else {
-        array.push(number);
+  let userEntry = number.toString();
+  if (userEntry.includes(2)) {
+    array.push("Boop!");
+  } else if (userEntry.includes(1)) {
+    array.push("Beep!");
+  } else {
+        array.push(userEntry);
    }
   return array;
 }
-
-
