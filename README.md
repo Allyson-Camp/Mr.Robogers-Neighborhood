@@ -59,7 +59,7 @@ Describe: numberToWord()
   Code: ```numberToWord(123);```
   Expected Output: ["Won't you be by neighbor?"]
 
-  Test #5: "It should return a looped through array stopping at the users inputted number"
+  Test #5: "It should return a looped through array starting at 0 and stopping at the users inputted number"
   Code: ```numberToWord(5)```
   Expected Output: ["Beep", "Boop", "Won't you be my neighbor?", 4, 5]
   
