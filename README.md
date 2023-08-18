@@ -47,13 +47,17 @@ Describe: numberCounter()
   Code: ```numberCounter(0);```
   Expected Output: [0]
 
-  Test #2: "It should return the word "Beep" for numbers that contain "1""
+  Test #2: "It should return the word "Beep" for entries that contain "1""
   Code: ```numberCounter(1);```
-  Expected Output: [0, "Beep"]
+  Expected Output: ["Beep"]
 
-  Test #3 "It should return the word "Boop" for numbers that contain "2""
-  Code: ```numberCounter(2)```
-  Expected Output: [0, "Beep", "Boop"]
+  Test #3: "It should return the word "Boop" for entries that contain "2""
+  Code: ```numberCounter(21);```
+  Expected Output: ["Boop"]
+
+  Test #4: "It should return the phrase "Won't you be my neighbor?" for entries that contain "3""
+  Code: ```numberCounter(123);```
+  Expected Output: ["Won't you be by neighbor?"]
   
 ## Known Bugs
 
