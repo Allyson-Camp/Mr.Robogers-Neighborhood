@@ -56,8 +56,12 @@ Describe: numberToWord()
   Expected Output: ["Boop"]
 
   Test #4: "It should return the phrase "Won't you be my neighbor?" for entries that contain "3""
-  Code: ```numberToWord123);```
+  Code: ```numberToWord(123);```
   Expected Output: ["Won't you be by neighbor?"]
+
+  Test #5: "It should return a looped through array stopping at the users inputted number"
+  Code: ```numberToWord(5)```
+  Expected Output: ["Beep", "Boop", "Won't you be my neighbor?", 4, 5]
   
 ## Known Bugs
 

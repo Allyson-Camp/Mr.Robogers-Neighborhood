@@ -1,0 +1,10 @@
+Plan:
+- function to transform numbers to words DONE
+- use a for loop on the array
+
+UI 
+- need form for submission
+- append the results to a div
+
+
+- extra: use a template literal to fill in the name in the want you be the neighbor
