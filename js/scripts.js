@@ -1,16 +1,16 @@
 function numberToWord(number) {
-  const array = [];
-  let userEntry = number.toString();
-  for (let index = 0; index <= userEntry; index += 1) {
+    let userEntry = number.toString();
+    const array = [];
+
     if (userEntry.includes(3)) {
-      return ("Won't you be my neighbor?");
-   } else if (userEntry.includes(2)) {
-    array.push("Boop!");
-} else if (userEntry.includes(1)) {
-      return ("Beep!");
+        return "Won't you be my neighbor?";
+    } else if (userEntry.includes(2)) {
+        array.push("Boop!");
+    } else if (userEntry.includes(1)) {
+        return "Beep!";
     } else {
-      return (userEntry);
+        return userEntry[index];
     }
-  }
-  array.push();
 }
+
+ //  for (let index = 0; index <= userEntry; index += 1);
