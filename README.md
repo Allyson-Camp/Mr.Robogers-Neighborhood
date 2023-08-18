@@ -41,15 +41,7 @@ To achieve this, array methods, looping, and branching logic were all applied in
 gh-pages: https://allyson-camp.github.io/Mr.Robogers-Neighborhood/
 
 ## Tests
-Describe: numberToString()
 
-Test #1: "It should return a number as a string"
-Code: 
-
-function numberToString(number) {
-  let userEntry = number.toString();
-  return userEntry;
-}
 Describe: numberToWord()
 
   Test #1: "It should return an array of numbers from 0 to the users inputted number"
