@@ -43,7 +43,9 @@ gh-pages: https://allyson-camp.github.io/Mr.Robogers-Neighborhood/
 ## Tests
 Describe: numberCounter()
 
-  Test #1:
+  Test #1: "It should return an array of numbers from 0 to the users inputted number"
+  Code: ```numberCounter(0);```
+  Expected Output: [0]
 
   
 ## Known Bugs
