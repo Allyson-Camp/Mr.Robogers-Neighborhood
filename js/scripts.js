@@ -7,3 +7,5 @@ function numberCounter(number) {
    }
   return array;
 }
+
+

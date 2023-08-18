@@ -51,6 +51,9 @@ Describe: numberCounter()
   Code: ```numberCounter(1);```
   Expected Output: [0, "Beep"]
 
+  Test #3 "It should return the word "Boop" for numbers that contain "2""
+  Code: ```numberCounter(2)```
+  Expected Output: [0, "Beep", "Boop"]
   
 ## Known Bugs
 
