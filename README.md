@@ -42,13 +42,20 @@ gh-pages: https://allyson-camp.github.io/Mr.Robogers-Neighborhood/
 
 ## Tests
 
-Describe: numberToWord()
+Describe: beepBoop();
+
+Test1: "It should return an array of numbers from 0 to the users inputted number"
+Code:
+```let userInput = 0;```
+  beepboop();
+
+<!-- Describe: numberToWord()
 
   Test #1: "It should return an array of numbers from 0 to the users inputted number"
   Code: ```numberToWord(0);```
-  Expected Output: [0]
+  Expected Output: [0] -->
 
-  Test #2: "It should return the word "Beep" for entries that contain "1""
+  <!-- Test #2: "It should return the word "Beep" for entries that contain "1""
   Code: ```numberToWord(1);```
   Expected Output: ["Beep"]
 
@@ -62,7 +69,7 @@ Describe: numberToWord()
 
   Test #5: "It should return a looped through array starting at 0 and stopping at the users inputted number"
   Code: ```numberToWord(5)```
-  Expected Output: ["Beep", "Boop", "Won't you be my neighbor?", 4, 5]
+  Expected Output: ["Beep", "Boop", "Won't you be my neighbor?", 4, 5] -->
   
 ## Known Bugs
 
