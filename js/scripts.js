@@ -1,22 +1,19 @@
 function numberToWord(number) {
-    let userEntry = number.toString();
-    const array = [];
+  let userEntry = number.toString();
+  
+  let numberCount = userEntry;
+  const numberArray = [];
+
+  numberArray.forEach(function (number) {
     if (userEntry.includes(3)) {
-        return "Won't you be my neighbor?";
+      return "Won't you be my neighbor?";
     } else if (userEntry.includes(2)) {
-        array.push("Boop!");
+      return ("Boop!");
     } else if (userEntry.includes(1)) {
-        return "Beep!";
+      return "Beep!";
     } else {
-        return parseInt(userEntry);
+      return parseInt(number);
     }
+  });
+    return numberArray;
 }
-
- //  for (let index = 0; index <= userEntry; index += 1);
-
-// function numTransform(num) {
-//   let userNum = num.toString();
-//   let array = [];
-//   array.push(userNum);
-//   return array;
-//  }
