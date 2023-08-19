@@ -47,7 +47,8 @@ Describe: beepBoop();
 Test1: "It should return an array of numbers from 0 to the users inputted number"
 Code:
 ```let userInput = 0;```
-  beepboop();
+```beepboop();```
+Expected Output: [0]
 
 <!-- Describe: numberToWord()
 
